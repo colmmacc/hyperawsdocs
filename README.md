@@ -2,6 +2,8 @@
 
 The open source version of the AWS Systems Manager Incident Manager user guide. You can submit feedback & requests for changes by submitting issues in this repo or by making proposed changes & submitting a pull request.
 
+View the [index](doc_source/index.md).
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
