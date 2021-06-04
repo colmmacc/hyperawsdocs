@@ -23,9 +23,9 @@ Incident Manager uses AWS Chatbot clients to connect responders in Amazon Chime 
 ------
 #### [ Slack ]
 
-1. Choose your workspace from the dropdown on the top right\.
+1. Choose your workspace from the dropdown list on the top right\.
 
-   1. If you're not already signed in to a workspace, choose **Sign in to a workspace**
+   1. If you're not already signed in to a workspace, choose **Sign in to a workspace**\.
 
 1. To grant AWS Chatbot permission to access your Slack workspace, choose **Allow**\.
 
@@ -39,17 +39,13 @@ Incident Manager uses AWS Chatbot clients to connect responders in Amazon Chime 
 
    1. Invite AWS Chatbot to your channel: `/invite @AWS`
 
-1. Enter an identifiable configuration name\.
+1. Switch to the **Configure Slack channel** page and enter an identifiable configuration name\.
 
 1. *Optional*– If you would like logging on this channel, Select **Logging**\.
 
 1. For the channel type, choose **public** or **private**\. Channels might take some time to populate because AWS Chatbot fetches all channels available in the workspace\.
    + For public channels, use the search bar to choose your public channel\. 
-   + For private channels, navigate to your channel within Slack and right\-click the channel name\. Choose **Copy link** then enter the link in the **Private Channel ID** field on the AWS Chatbot configuration page\.
-
-1. 
-
-   1. If the 
+   + For private channels, navigate to your channel within Slack and right\-click the channel name\. Choose **Copy link**, then enter the link in the **Private Channel ID** field on the AWS Chatbot configuration page\.
 
 1. Choose **Create an IAM role using a template**, and enter a role name\.
 

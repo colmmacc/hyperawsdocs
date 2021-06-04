@@ -8,7 +8,7 @@ Using AWS tools such as Amazon CloudWatch Alarms and CloudWatch Metrics, AWS Clo
 
 Features include:
 + **Response plans** – Create and automate response plans initiated by CloudWatch alarms or Amazon EventBridge events\.
-+ **Runbook automation** – Define runbooks through Systems Manager Automation Documents to automate critical response and provide detailed steps to first responders\.
++ **Runbook automation** – Define runbooks through Systems Manager Automation to automate critical response and provide detailed steps to first responders\.
 + **Engagement and escalation** – Automatically connect the correct people for each unique incident\. Engage through different contact methods and escalate through responders ensuring visibility and active participation during incidents\.
 + **Active collaboration** – Incident responders actively respond to incidents through integration with the AWS Chatbot client\.
 + **Incident tracking** – Review incident details for up\-to\-date information during an incident\. Create and remediate follow\-up items while following runbooks\.
@@ -44,7 +44,7 @@ Incident Manager integrates with your current AWS environment to provide rapid r
 + **Amazon CloudWatch** – Configure CloudWatch to monitor your application resources\. Use CloudWatch alarms to initiate incidents in the Incident Manager console\. To learn about monitoring best practices, see [Response plans](response-plans.md)\. Review detailed metrics during an incident using the incident details page\. For more information about metrics in the incident details page, see [Metrics](tracking-details.md#tracking-details-metrics) in the incident details section of this guide\. 
 + **AWS Systems Manager** – Use Systems Manager capabilities to view and control your application infrastructure\. For more information, see the [Systems Manager User Guide](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html)\.
   + OpsCenter – Create *OpsItems* directly from a post incident analysis to follow up on related work\. To learn more about continuous improvement using Incident Manager post incident analysis, see the [Post\-incident analysis](analysis.md) section of this guide\.
-  + Automation Documents – To learn about creating runbooks using Systems Manager automation documents, see the [Runbooks and automation](runbooks.md) section of this guide\.
+  + Automation – To learn about creating runbooks using Systems Manager automation, see the [Runbooks and automation](runbooks.md) section of this guide\.
 
 ## Accessing Incident Manager<a name="access"></a>
 

@@ -31,7 +31,7 @@ The *incident* details view provides your team with runbooks, timelines, and met
 
 *Runbooks* commonly provide investigation steps and can automatically pull data or attempt commonly used solutions\. Runbooks also provide clear, repeatable steps that your team has found to be useful in mitigating incidents\. The runbook tab focuses on the current runbook step and shows past and future steps\.
 
-Incident Manager integrates with Systems Manager Automation documents to build runbooks\. Use runbooks to do any of the following:
+Incident Manager integrates with Systems Manager Automation to build runbooks\. Use runbooks to do any of the following:
 + Manage instances and AWS resources
 + Automatically run scripts
 + Manage AWS CloudFormation resources

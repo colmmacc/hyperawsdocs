@@ -42,46 +42,65 @@ Incident Manager must have permissions to publish to the chat channel's SNS topi
 
 1. To select a **Runbook**:
    + Choose **Select an existing runbook**\. Select the **Owner**, **Runbook**, and **Version**\. For information about runbook creation, see [Runbooks and automation](runbooks.md)\.
-   + Choose **Choose runbook from template**\. Enter a descriptive runbook name\. 
+   + Choose **Clone runbook from template**\. Enter a descriptive runbook name\. 
 
-1. Choose an **Existing IAM role**\. This role must have permissions to perform the actions described in the chosen runbook\. The existing role must also have the following permissions that allow Incident Manager to start an automation execution on your behalf:
+1. Either choose an existing role or use the following steps to create a new role\. If you choose an existing role it must allow Incident Manager to start an automation execution for you\.
 
-   ```
-   {
-     "Version": "2012-10-17",
-     "Statement": [
-       {
-         "Effect": "Allow",
-         "Resource": "arn:aws:ssm:*:111122223333:automation-definition/DocumentName:*",
-         "Action": "ssm:StartAutomationExecution"
-       },
-       {
-         "Effect": "Allow",
-         "Resource": "arn:aws:iam::*:role/AWS-SystemsManager-AutomationExecutionRole",
-         "Action": "sts:AssumeRole"
-       }
-     ]
-   }
-   ```
+   1. Open the IAM console at [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\.
 
-   The existing role trust policy must include the AWS service `ssm-incidents.amazonaws.com` to allow Incident Manager to use this role on your behalf:
+   1. Choose **Roles** from the left navigation and choose **Create role**\.
 
-   ```
-   {
-     "Version": "2012-10-17",
-     "Statement": [
-       {
-         "Effect": "Allow",
-         "Principal": {
-           "Service": "ssm-incidents.amazonaws.com"
-         },
-         "Action": "sts:AssumeRole"
-       }
-     ]
-   }
-   ```
+   1. Select **Incident Manager** and choose the **Incident Manager** use case\.
+
+   1. Choose **Next: Permissions**
+
+   1. Choose **Create policy** and then choose the **JSON** tab\. 
+
+   1. Copy and paste the following JSON blob describing the policy into the JSON editor\.
+
+      ```
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Resource": "arn:aws:ssm:*:111122223333:automation-definition/DocumentName:*",
+            "Action": "ssm:StartAutomationExecution"
+          },
+          {
+            "Effect": "Allow",
+            "Resource": "arn:aws:iam::*:role/AWS-SystemsManager-AutomationExecutionRole",
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      }
+      ```
+
+   1. Choose **Next: Tags**
+
+   1. \(Optional\) Add tags to your policy\.
+
+   1. Choose **Next: Review**\.
+
+   1. Provide a **Name** and optionally provide a **Description** for the policy\.
+
+   1. Choose **Create policy**\.
+
+   1. Navigate back to the role you were creating and select for the policy you created\. 
+
+   1. \(Optional\) Add tags to your role\.
+
+   1. Provide a **Role name** and \(optional\) update the **Role description**\.
+
+   1. Choose **Create role**\.
+
+   1. Navigate back to the response plan you are creating and refresh the **Role name** dropdown\.
+
+   1. Select the role you created in the IAM console\.
 
 1. Choose the **Execution target**\.
+
+1. \(Optional\) Add tags to your response plan\.
 
 1. Choose **Create response plan**\.
 

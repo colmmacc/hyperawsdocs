@@ -12,7 +12,7 @@ AWS Systems Manager Incident Manager provides many security features to consider
 When granting permissions, you decide who is getting what permissions to which Incident Manager resources\. You enable specific actions that you want to allow on those resources\. Therefore, grant only the permissions that are required to perform a task\. Implementing least privilege access is fundamental in reducing security risk and the impact that could result from errors or malicious intent\. 
 
 The following tools are available to implement least privilege access: 
-+  [IAM user policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_controlling.html) and [Permissions Boundaries for IAM Entities ](https://docs.aws.amazon.com/https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html)
++  [IAM user policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_controlling.html) and [Permissions Boundaries for IAM Entities ](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html)
 + [Service Control Policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)
 
 **Creating and managing contacts**  
@@ -31,7 +31,7 @@ AWS regularly releases updated versions of tools and plugins that you can use in
 + AWS Tools for Windows PowerShell – The Tools for Windows PowerShell are a set of PowerShell modules that are built on the functionality exposed by the AWS SDK for \.NET\. The Tools for Windows PowerShell enable you to script operations on your AWS resources from the PowerShell command line\. Periodically, as updated versions of the Tools for Windows PowerShell are released, you should update the version that you're running locally\. For information, see [Updating the AWS Tools for Windows PowerShell on Windows](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-windows.html#pstools-updating) or [Updating the AWS Tools for Windows PowerShell on Linux or macOS](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-linux-mac.html#pstools-updating-linux)\.
 
 **Related content**  
-[Security best practices for Systems Manager](https://docs.aws.amazon.com/ystems-manager/latest/userguide/security-best-practices.html)
+[Security best practices for Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/security-best-practices.html)
 
 ## Incident Manager detective security best practices<a name="security-best-practices-detect"></a>
 
@@ -46,7 +46,7 @@ Regularly check security advisories posted in Trusted Advisor for your AWS accou
 
 Further, actively monitor the primary email address registered to each of your AWS accounts\. AWS will contact you, using this email address, about emerging security issues that might affect you\. 
 
-AWS operational issues with broad impact are posted on the [AWS Service Health Dashboard](https://status.aws.amazon.com/)\. Operational issues are also posted to individual accounts through the Personal Health Dashboard\. For more information, see the [AWS Health documentation](https://docs.aws.amazon.com/health/)\. 
+AWS operational issues with broad impact are posted on the [AWS Service Health Dashboard](https://status.aws.amazon.com/)\. Operational issues are also posted to individual accounts through the AWS Personal Health Dashboard\. For more information, see the [AWS Health documentation](https://docs.aws.amazon.com/health/)\. 
 
 **Related content**  
 [Amazon Web Services: Overview of Security Processes](http://aws.amazon.com/architecture/security-identity-compliance/?cards-all.sort-by=item.additionalFields.sortDate&cards-all.sort-order=desc) \(whitepaper\)

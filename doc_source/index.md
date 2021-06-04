@@ -49,3 +49,4 @@ Amazon's trademarks and trade dress may not be used in
    + [Configuration and vulnerability analysis in Incident Manager](vulnerability.md)
    + [Security best practices in AWS Systems Manager Incident Manager](security-best-practices.md)
 + [AWS glossary](glossary.md)
++ [Document History for Incident Manager](doc-history.md)

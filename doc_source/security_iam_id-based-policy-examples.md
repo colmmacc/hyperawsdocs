@@ -71,7 +71,7 @@ This example shows how you might create a policy that allows IAM users to view t
 
 ## Accessing a response plan<a name="security_iam_id-based-policy-examples-access-response-plan"></a>
 
-In this example, you want to grant an IAM user in your AWS account access to one of your Incident Manager response plans, `exampleplan`\. You also want to allow the user to add, update, and delete the response plan\.
+In this example, you want to grant an IAM user in your Amazon Web Services account access to one of your Incident Manager response plans, `exampleplan`\. You also want to allow the user to add, update, and delete the response plan\.
 
 The policy grants the `ssm-incidents:ListResponsePlans`, `ssm-incidents:GetResponsePlan`, `ssm-incidents:UpdateResponsePlan` and `ssm-incident:ListResponsePlan` permissions to the user\.
 

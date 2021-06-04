@@ -1,10 +1,10 @@
 # Runbooks and automation<a name="runbooks"></a>
 
-A runbook drives incident mitigation and response\. AWS Systems Manager Incident Manager brings your runbooks to a central place, ensuring responders focus on mitigation instead of tracking down the next steps\. Setup and configure runbooks using Systems Manager automation documents and connect them to an incident by defining them in a response plan\. For more information about Automation Documents, see [Working with Automation documents](https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-documents.html) in the Systems Manager user guide\. Using automation steps in Automation Documents incurs costs in Systems Manager\. For more information about Systems Manager billing, [Systems Manager pricing](http://aws.amazon.com/systems-manager/pricing/)\. For more information about adding a runbook to a response plan, see [Response plans](response-plans.md)\.
+A runbook drives incident mitigation and response\. AWS Systems Manager Incident Manager brings your runbooks to a central place, ensuring responders focus on mitigation instead of tracking down the next steps\. Setup and configure runbooks using AWS Systems Manager runbooks and connect them to an incident by defining them in a response plan\. For more information about Automation runbooks, see [AWS Systems Manager Automation](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html) in the Systems Manager user guide\. Using automation steps in runbooks incurs costs in Systems Manager\. For more information about Systems Manager billing, [Systems Manager pricing](http://aws.amazon.com/systems-manager/pricing/)\. For more information about adding a runbook to a response plan, see [Response plans](response-plans.md)\.
 
 ## Define a runbook<a name="runbook-create"></a>
 
-When creating a runbook, you can follow the steps provided here or you can follow the more detailed steps provided in the [SSM documents](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-ssm-docs.html) section in the Systems Manager user guide\. If you're creating a multi\-account, multi\-region runbook, see [Running automations in multiple AWS Regions and accounts](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation-multiple-accounts-and-regions.html) in the Systems Manager user guide\. 
+When creating a runbook, you can follow the steps provided here or you can follow the more detailed guide provided in the [Working with runbooks](https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-documents.html) section in the Systems Manager user guide\. If you're creating a multi\-account, multi\-region runbook, see [Running automations in multiple AWS Regions and accounts](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation-multiple-accounts-and-regions.html) in the Systems Manager user guide\. 
 
 **Define a runbook**
 
@@ -50,7 +50,7 @@ To enable cross\-account functionality, share the runbook in your management acc
 
 ## Incident Manager runbook template<a name="runbooks-template"></a>
 
-Incident Manager provides the following runbook templates to get your team started with authoring runbooks in Systems Manager automation documents\. You can use these templates as is or edit them to include more details specific to your application and resources\. 
+Incident Manager provides the following runbook templates to get your team started with authoring runbooks in Systems Manager automation\. You can use these templates as is or edit them to include more details specific to your application and resources\. 
 
 **Find Incident Manager runbook templates**
 
@@ -84,6 +84,6 @@ Incident Manager provides the following runbook templates to get your team start
 
 1. Choose **Create automation**\.
 
-### AWSIncidents\-CriticalIncidentRunbookTemplate<a name="runbooks-template-critical"></a>
+### `AWSIncidents-CriticalIncidentRunbookTemplate`<a name="runbooks-template-critical"></a>
 
-The AWSIncidents\-CriticalIncidentRunbookTemplate is a template that provides the Incident Manager incident lifecycle in manual steps\. These steps are generic enough to use in most applications but detailed enough to get responders started with incident resolution\. 
+The `AWSIncidents-CriticalIncidentRunbookTemplate` is a template that provides the Incident Manager incident lifecycle in manual steps\. These steps are generic enough to use in most applications but detailed enough to get responders started with incident resolution\. 

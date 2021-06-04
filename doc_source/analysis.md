@@ -68,7 +68,7 @@ An analysis template provides a set of questions that dive deep into the root ca
 
 ### AWS standard template<a name="analysis-templates-standard"></a>
 
-Incident Manager provides a standard template of questions based on AWS incident response and problem analysis best practices\. The standard AWS template provided by Incident Manager is AWSIncidents\-PostIncidentAnalysisTemplate\. 
+Incident Manager provides a standard template of questions based on AWS incident response and problem analysis best practices\. The standard AWS template provided by Incident Manager is `AWSIncidents-PostIncidentAnalysisTemplate`\. 
 
 ### Create an analysis template<a name="analysis-templates-create"></a>
 

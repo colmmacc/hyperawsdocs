@@ -24,7 +24,7 @@ There are additional charges for using AWS KMS customer managed keys\. For more 
 
 To allow Incident Manager to use your customer managed key to encrypt your data, you must add the following policy statements to the key policy of your customer managed key\. To learn more about setting up and changing the key policy in your account, see [Using key policies in AWS KMS](https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html)\. The policy provides the following permissions:
 + Allows Incident Manager to perform read\-only operations to find the CMK for Incident Manager in your account\.
-+ Allows Incident Manager to use the CMK to create grants, but only when it is acting on behalf of principals in the account who have permission to use Incident Manager\. If the principals specified in the policy statement don't have permission to use the CMK and to use Incident Manager, the call fails, even when it comes from the Incident Manager service\.
++ Allows Incident Manager to use the CMK to create grants and describe the key, but only when it is acting on behalf of principals in the account who have permission to use Incident Manager\. If the principals specified in the policy statement don't have permission to use the CMK and to use Incident Manager, the call fails, even when it comes from the Incident Manager service\.
 
 ```
        {
@@ -34,7 +34,8 @@ To allow Incident Manager to use your customer managed key to encrypt your data,
          "AWS": "arn:aws:iam::111122223333:user/ssm-lead"
        },
        "Action": [
-         "kms:CreateGrant"
+         "kms:CreateGrant",
+         "kms:DescribeKey"
        ],
        "Resource": "*",
        "Condition": {

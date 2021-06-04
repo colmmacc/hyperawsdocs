@@ -8,7 +8,7 @@ This section walks through **Get prepared** in the Incident Manager console\. Yo
 
 If you're using AWS for the first time or you're setting up your AWS Identity and Access Management account, see the [AWS Identity and Access Management prerequisites](iam-prereq.md)\.
 
-We recommend you complete the Systems Manager quick setup before beginning the Incident Manager **Get prepated** wizard\. Use Systems Manager [Quick Setup](https://console.aws.amazon.com/systems-manager/quick-setup) to configure frequently used AWS services and features with recommended best practices\. Incident Manager uses Systems Manager features to manage incidents in your system and benefits from having Systems Manager configured first\. 
+We recommend you complete the Systems Manager quick setup before beginning the Incident Manager **Get prepared** wizard\. Use Systems Manager [Quick Setup](https://console.aws.amazon.com/systems-manager/quick-setup) to configure frequently used AWS services and features with recommended best practices\. Incident Manager uses Systems Manager features to manage incidents in your system and benefits from having Systems Manager configured first\. 
 
 Before you begin your account must have the IAM permission `iam:CreateServiceLinkedRole`\. Incident Manager uses this permission to create the `AWSServiceRoleforIncidentManager` in your account\. To learn more about this service linked role, see [Using service\-linked roles for Incident Manager](using-service-linked-roles.md)\. 
 

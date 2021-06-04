@@ -16,11 +16,11 @@ Additionally, AWS supports managed policies for job functions that span multiple
 
 
 
-## AWS managed policy: AWSIncidentManagerServiceRolePolicy<a name="security-iam-awsmanpol-AWSServiceRoleforIncidentManagerPolicy"></a>
+## AWS managed policy: `AWSIncidentManagerServiceRolePolicy`<a name="security-iam-awsmanpol-AWSServiceRoleforIncidentManagerPolicy"></a>
 
 
 
-You can't attach AWSIncidentManagerServiceRolePolicy to your IAM entities\. This policy is attached to a service\-linked role that allows Incident Manager to perform actions on your behalf\. For more information, see [Using service\-linked roles for Incident Manager](using-service-linked-roles.md)\.
+You can't attach `AWSIncidentManagerServiceRolePolicy` to your IAM entities\. This policy is attached to a service\-linked role that allows Incident Manager to perform actions on your behalf\. For more information, see [Using service\-linked roles for Incident Manager](using-service-linked-roles.md)\.
 
 
 
@@ -73,11 +73,11 @@ This policy includes the following permissions\.
 }
 ```
 
-## AWS managed policy: AWSIncidentManagerResolverAccess<a name="security-iam-awsmanpol-AWSIncidentManagerResolverAccess"></a>
+## AWS managed policy: `AWSIncidentManagerResolverAccess`<a name="security-iam-awsmanpol-AWSIncidentManagerResolverAccess"></a>
 
 
 
-You can attach AWSIncidentManagerResolverAccess to your IAM entities to allow them to start, view, and update incidents\. This also allows them to create customer timeline events and related items in the incident dashboard\. You can also attach this policy to the AWS Chatbot service role or directly to your customer managed role associated with any chat channel used for incident collaboration\. To learn more about IAM policies in AWS Chatbot, see [Managing permissions for running commands using AWS Chatbot](https://docs.aws.amazon.com/chatbot/latest/adminguide/chatbot-cli-commands.html#iam-policies-for-slack-channels-cli-support)\.
+You can attach `AWSIncidentManagerResolverAccess` to your IAM entities to allow them to start, view, and update incidents\. This also allows them to create customer timeline events and related items in the incident dashboard\. You can also attach this policy to the AWS Chatbot service role or directly to your customer managed role associated with any chat channel used for incident collaboration\. To learn more about IAM policies in AWS Chatbot, see [Managing permissions for running commands using AWS Chatbot](https://docs.aws.amazon.com/chatbot/latest/adminguide/chatbot-cli-commands.html#iam-policies-for-slack-channels-cli-support)\.
 
 **Permissions details**
 
@@ -147,6 +147,6 @@ View details about updates to AWS managed policies for Incident Manager since th
 
 | Change | Description | Date | 
 | --- | --- | --- | 
-|  [AWSIncidentManagerResolverAccess](#security-iam-awsmanpol-AWSIncidentManagerResolverAccess) – New policy  |  Incident Manager added a new policy to allow you to start incidents, list response plans, list incidents, update incidents, list timeline events, create custom timeline events, update custom timeline events, delete custom timeline events, list related items, create related items, and update related items\.  | April 26, 2021 | 
-|  [AWSIncidentManagerServiceRolePolicy](#security-iam-awsmanpol-AWSServiceRoleforIncidentManagerPolicy) – New policy  |  Incident Manager added a new policy to grant Incident Manager permissions to list incidents, create timeline events, create OpsItems, associate related items to OpsItems, and start engagements related to an incident\.  | April 26, 2021 | 
+|  [`AWSIncidentManagerResolverAccess`](#security-iam-awsmanpol-AWSIncidentManagerResolverAccess) – New policy  |  Incident Manager added a new policy to allow you to start incidents, list response plans, list incidents, update incidents, list timeline events, create custom timeline events, update custom timeline events, delete custom timeline events, list related items, create related items, and update related items\.  | April 26, 2021 | 
+|  [`AWSIncidentManagerServiceRolePolicy`](#security-iam-awsmanpol-AWSServiceRoleforIncidentManagerPolicy) – New policy  |  Incident Manager added a new policy to grant Incident Manager permissions to list incidents, create timeline events, create OpsItems, associate related items to OpsItems, and start engagements related to an incident\.  | April 26, 2021 | 
 |  Incident Manager started tracking changes  |  Incident Manager started tracking changes for its AWS managed policies\.  | April 26, 2021 | 
