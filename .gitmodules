@@ -1,0 +1,738 @@
+[submodule "elastic-beanstalk-samples"]
+	path = elastic-beanstalk-samples
+	url = ssh://git@github.com/awsdocs/elastic-beanstalk-samples.git
+[submodule "aws-doc-shared-content"]
+	path = aws-doc-shared-content
+	url = ssh://git@github.com/awsdocs/aws-doc-shared-content.git
+[submodule "aws-java-developer-guide"]
+	path = aws-java-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-java-developer-guide.git
+[submodule "aws-xamarin-developer-guide"]
+	path = aws-xamarin-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-xamarin-developer-guide.git
+[submodule "aws-unity-developer-guide"]
+	path = aws-unity-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-unity-developer-guide.git
+[submodule "aws-ios-developer-guide"]
+	path = aws-ios-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-ios-developer-guide.git
+[submodule "aws-android-developer-guide"]
+	path = aws-android-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-android-developer-guide.git
+[submodule "aws-toolkit-eclipse-user-guide"]
+	path = aws-toolkit-eclipse-user-guide
+	url = ssh://git@github.com/awsdocs/aws-toolkit-eclipse-user-guide.git
+[submodule "aws-net-developer-guide"]
+	path = aws-net-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-net-developer-guide.git
+[submodule "aws-toolkit-visual-studio-user-guide"]
+	path = aws-toolkit-visual-studio-user-guide
+	url = ssh://git@github.com/awsdocs/aws-toolkit-visual-studio-user-guide.git
+[submodule "aws-powershell-user-guide"]
+	path = aws-powershell-user-guide
+	url = ssh://git@github.com/awsdocs/aws-powershell-user-guide.git
+[submodule "aws-doc-sdk-examples"]
+	path = aws-doc-sdk-examples
+	url = ssh://git@github.com/awsdocs/aws-doc-sdk-examples.git
+[submodule "aws-cpp-developer-guide"]
+	path = aws-cpp-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-cpp-developer-guide.git
+[submodule "aws-go-developer-guide"]
+	path = aws-go-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-go-developer-guide.git
+[submodule "aws-ruby-developer-guide"]
+	path = aws-ruby-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-ruby-developer-guide.git
+[submodule "aws-example-apps"]
+	path = aws-example-apps
+	url = ssh://git@github.com/awsdocs/aws-example-apps.git
+[submodule "aws-java-developer-guide-v2"]
+	path = aws-java-developer-guide-v2
+	url = ssh://git@github.com/awsdocs/aws-java-developer-guide-v2.git
+[submodule "aws-mobile-developer-guide"]
+	path = aws-mobile-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-mobile-developer-guide.git
+[submodule "aws-kms-developer-guide"]
+	path = aws-kms-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-kms-developer-guide.git
+[submodule "aws-waf-and-shield-advanced-developer-guide"]
+	path = aws-waf-and-shield-advanced-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-waf-and-shield-advanced-developer-guide.git
+[submodule "aws-encryption-sdk-docs"]
+	path = aws-encryption-sdk-docs
+	url = ssh://git@github.com/awsdocs/aws-encryption-sdk-docs.git
+[submodule "aws-cloudhsm-user-guide"]
+	path = aws-cloudhsm-user-guide
+	url = ssh://git@github.com/awsdocs/aws-cloudhsm-user-guide.git
+[submodule "aws-organizations-docs"]
+	path = aws-organizations-docs
+	url = ssh://git@github.com/awsdocs/aws-organizations-docs.git
+[submodule "amazon-route53-docs"]
+	path = amazon-route53-docs
+	url = ssh://git@github.com/awsdocs/amazon-route53-docs.git
+[submodule "aws-directory-service-admin-guide"]
+	path = aws-directory-service-admin-guide
+	url = ssh://git@github.com/awsdocs/aws-directory-service-admin-guide.git
+[submodule "amazon-cloud-directory-developer-guide"]
+	path = amazon-cloud-directory-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-cloud-directory-developer-guide.git
+[submodule "aws-single-sign-on-user-guide"]
+	path = aws-single-sign-on-user-guide
+	url = ssh://git@github.com/awsdocs/aws-single-sign-on-user-guide.git
+[submodule "aws-secrets-manager-docs"]
+	path = aws-secrets-manager-docs
+	url = ssh://git@github.com/awsdocs/aws-secrets-manager-docs.git
+[submodule "iam-user-guide"]
+	path = iam-user-guide
+	url = ssh://git@github.com/awsdocs/iam-user-guide.git
+[submodule "amazon-cloudfront-developer-guide"]
+	path = amazon-cloudfront-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-cloudfront-developer-guide.git
+[submodule "amazon-s3-developer-guide"]
+	path = amazon-s3-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-s3-developer-guide.git
+[submodule "amazon-glacier-developer-guide"]
+	path = amazon-glacier-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-glacier-developer-guide.git
+[submodule "amazon-sagemaker-developer-guide"]
+	path = amazon-sagemaker-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-sagemaker-developer-guide.git
+[submodule "amazon-inspector-user-guide"]
+	path = amazon-inspector-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-inspector-user-guide.git
+[submodule "amazon-guardduty-user-guide"]
+	path = amazon-guardduty-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-guardduty-user-guide.git
+[submodule "macie-user-guide"]
+	path = macie-user-guide
+	url = ssh://git@github.com/awsdocs/macie-user-guide.git
+[submodule "amazon-efs-user-guide"]
+	path = amazon-efs-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-efs-user-guide.git
+[submodule "amazon-lex-developer-guide"]
+	path = amazon-lex-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-lex-developer-guide.git
+[submodule "amazon-comprehend-developer-guide"]
+	path = amazon-comprehend-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-comprehend-developer-guide.git
+[submodule "amazon-translate-developer-guide"]
+	path = amazon-translate-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-translate-developer-guide.git
+[submodule "amazon-transcribe-developer-guide"]
+	path = amazon-transcribe-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-transcribe-developer-guide.git
+[submodule "amazon-dynamodb-developer-guide"]
+	path = amazon-dynamodb-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-dynamodb-developer-guide.git
+[submodule "aws-lambda-developer-guide"]
+	path = aws-lambda-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-lambda-developer-guide.git
+[submodule "aws-cost-management-user-guide"]
+	path = aws-cost-management-user-guide
+	url = ssh://git@github.com/awsdocs/aws-cost-management-user-guide.git
+[submodule "aws-artifact-user-guide"]
+	path = aws-artifact-user-guide
+	url = ssh://git@github.com/awsdocs/aws-artifact-user-guide.git
+[submodule "amazon-transcoder-developer-guide"]
+	path = amazon-transcoder-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-transcoder-developer-guide.git
+[submodule "aws-certificate-user-guide"]
+	path = aws-certificate-user-guide
+	url = ssh://git@github.com/awsdocs/aws-certificate-user-guide.git
+[submodule "amazon-sumerian-user-guide"]
+	path = amazon-sumerian-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-sumerian-user-guide.git
+[submodule "aws-cli-user-guide"]
+	path = aws-cli-user-guide
+	url = ssh://git@github.com/awsdocs/aws-cli-user-guide.git
+[submodule "aws-xray-developer-guide"]
+	path = aws-xray-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-xray-developer-guide.git
+[submodule "aws-sct-user-guide"]
+	path = aws-sct-user-guide
+	url = ssh://git@github.com/awsdocs/aws-sct-user-guide.git
+[submodule "amazon-rds-user-guide"]
+	path = amazon-rds-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-rds-user-guide.git
+[submodule "aws-dms-user-guide"]
+	path = aws-dms-user-guide
+	url = ssh://git@github.com/awsdocs/aws-dms-user-guide.git
+[submodule "aws-dms-step-by-step"]
+	path = aws-dms-step-by-step
+	url = ssh://git@github.com/awsdocs/aws-dms-step-by-step.git
+[submodule "amazon-rekognition-developer-guide"]
+	path = amazon-rekognition-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-rekognition-developer-guide.git
+[submodule "amazon-kinesis-data-firehose-developer-guide"]
+	path = amazon-kinesis-data-firehose-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-kinesis-data-firehose-developer-guide.git
+[submodule "aws-glue-developer-guide"]
+	path = aws-glue-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-glue-developer-guide.git
+[submodule "aws-serverlessrepo-developer-guide"]
+	path = aws-serverlessrepo-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-serverlessrepo-developer-guide.git
+[submodule "amazon-kinesis-data-streams-developer-guide"]
+	path = amazon-kinesis-data-streams-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-kinesis-data-streams-developer-guide.git
+[submodule "amazon-quicksight-user-guide"]
+	path = amazon-quicksight-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-quicksight-user-guide.git
+[submodule "amazon-application-discovery-user-guide"]
+	path = amazon-application-discovery-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-application-discovery-user-guide.git
+[submodule "amazon-migrationhub-user-guide"]
+	path = amazon-migrationhub-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-migrationhub-user-guide.git
+[submodule "amazon-polly-developer-guide"]
+	path = amazon-polly-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-polly-developer-guide.git
+[submodule "aws-codepipeline-user-guide"]
+	path = aws-codepipeline-user-guide
+	url = ssh://git@github.com/awsdocs/aws-codepipeline-user-guide.git
+[submodule "aws-codedeploy-user-guide"]
+	path = aws-codedeploy-user-guide
+	url = ssh://git@github.com/awsdocs/aws-codedeploy-user-guide.git
+[submodule "aws-cloudformation-user-guide"]
+	path = aws-cloudformation-user-guide
+	url = ssh://git@github.com/awsdocs/aws-cloudformation-user-guide.git
+[submodule "amazon-pinpoint-user-guide"]
+	path = amazon-pinpoint-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-pinpoint-user-guide.git
+[submodule "amazon-pinpoint-developer-guide"]
+	path = amazon-pinpoint-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-pinpoint-developer-guide.git
+[submodule "aws-deep-learning-amis"]
+	path = aws-deep-learning-amis
+	url = ssh://git@github.com/awsdocs/aws-deep-learning-amis.git
+[submodule "amazon-redshift-developer-guide"]
+	path = amazon-redshift-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-redshift-developer-guide.git
+[submodule "aws-greengrass-developer-guide"]
+	path = aws-greengrass-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-greengrass-developer-guide.git
+[submodule "amazon-s3-getting-started-guide"]
+	path = amazon-s3-getting-started-guide
+	url = ssh://git@github.com/awsdocs/amazon-s3-getting-started-guide.git
+[submodule "amazon-s3-user-guide"]
+	path = amazon-s3-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-s3-user-guide.git
+[submodule "aws-cloud9-user-guide"]
+	path = aws-cloud9-user-guide
+	url = ssh://git@github.com/awsdocs/aws-cloud9-user-guide.git
+[submodule "aws-elastic-beanstalk-developer-guide"]
+	path = aws-elastic-beanstalk-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-elastic-beanstalk-developer-guide.git
+[submodule "amazon-elasticache-docs"]
+	path = amazon-elasticache-docs
+	url = ssh://git@github.com/awsdocs/amazon-elasticache-docs.git
+[submodule "amazon-kinesis-data-analytics-developer-guide"]
+	path = amazon-kinesis-data-analytics-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-kinesis-data-analytics-developer-guide.git
+[submodule "amazon-redshift-management-guide"]
+	path = amazon-redshift-management-guide
+	url = ssh://git@github.com/awsdocs/amazon-redshift-management-guide.git
+[submodule "amazon-redshift-getting-started-guide"]
+	path = amazon-redshift-getting-started-guide
+	url = ssh://git@github.com/awsdocs/amazon-redshift-getting-started-guide.git
+[submodule "aws-snowball-user-guide"]
+	path = aws-snowball-user-guide
+	url = ssh://git@github.com/awsdocs/aws-snowball-user-guide.git
+[submodule "amazon-ecs-developer-guide"]
+	path = amazon-ecs-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-ecs-developer-guide.git
+[submodule "AWS-Kinesis-Video-Documentation"]
+	path = AWS-Kinesis-Video-Documentation
+	url = ssh://git@github.com/awsdocs/AWS-Kinesis-Video-Documentation.git
+[submodule "aws-elemental-mediaconvert-user-guide"]
+	path = aws-elemental-mediaconvert-user-guide
+	url = ssh://git@github.com/awsdocs/aws-elemental-mediaconvert-user-guide.git
+[submodule "aws-snowball-developer-guide"]
+	path = aws-snowball-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-snowball-developer-guide.git
+[submodule "aws-elemental-mediastore-user-guide"]
+	path = aws-elemental-mediastore-user-guide
+	url = ssh://git@github.com/awsdocs/aws-elemental-mediastore-user-guide.git
+[submodule "aws-storagegateway-user-guide"]
+	path = aws-storagegateway-user-guide
+	url = ssh://git@github.com/awsdocs/aws-storagegateway-user-guide.git
+[submodule "aws-elemental-speke-drm-docs"]
+	path = aws-elemental-speke-drm-docs
+	url = ssh://git@github.com/awsdocs/aws-elemental-speke-drm-docs.git
+[submodule "amazon-ecr-user-guide"]
+	path = amazon-ecr-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-ecr-user-guide.git
+[submodule "amazon-athena-user-guide"]
+	path = amazon-athena-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-athena-user-guide.git
+[submodule "aws-elemental-mediapackage-user-guide"]
+	path = aws-elemental-mediapackage-user-guide
+	url = ssh://git@github.com/awsdocs/aws-elemental-mediapackage-user-guide.git
+[submodule "aws-opsworks-user-guide"]
+	path = aws-opsworks-user-guide
+	url = ssh://git@github.com/awsdocs/aws-opsworks-user-guide.git
+[submodule "amazon-appstream2-developer-guide"]
+	path = amazon-appstream2-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-appstream2-developer-guide.git
+[submodule "aws-data-pipeline-developer-guide"]
+	path = aws-data-pipeline-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-data-pipeline-developer-guide.git
+[submodule "amazon-vpc-user-guide"]
+	path = amazon-vpc-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-vpc-user-guide.git
+[submodule "amazon-ec2-user-guide"]
+	path = amazon-ec2-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-ec2-user-guide.git
+[submodule "application-auto-scaling-user-guide"]
+	path = application-auto-scaling-user-guide
+	url = ssh://git@github.com/awsdocs/application-auto-scaling-user-guide.git
+[submodule "amazon-workspaces-administration-guide"]
+	path = amazon-workspaces-administration-guide
+	url = ssh://git@github.com/awsdocs/amazon-workspaces-administration-guide.git
+[submodule "elb-user-guide"]
+	path = elb-user-guide
+	url = ssh://git@github.com/awsdocs/elb-user-guide.git
+[submodule "elb-application-load-balancers-user-guide"]
+	path = elb-application-load-balancers-user-guide
+	url = ssh://git@github.com/awsdocs/elb-application-load-balancers-user-guide.git
+[submodule "aws-direct-connect-user-guide"]
+	path = aws-direct-connect-user-guide
+	url = ssh://git@github.com/awsdocs/aws-direct-connect-user-guide.git
+[submodule "aws-elemental-mediatailor-user-guide"]
+	path = aws-elemental-mediatailor-user-guide
+	url = ssh://git@github.com/awsdocs/aws-elemental-mediatailor-user-guide.git
+[submodule "amazon-ec2-user-guide-windows"]
+	path = amazon-ec2-user-guide-windows
+	url = ssh://git@github.com/awsdocs/amazon-ec2-user-guide-windows.git
+[submodule "aws-auto-scaling-user-guide"]
+	path = aws-auto-scaling-user-guide
+	url = ssh://git@github.com/awsdocs/aws-auto-scaling-user-guide.git
+[submodule "elb-network-load-balancers-user-guide"]
+	path = elb-network-load-balancers-user-guide
+	url = ssh://git@github.com/awsdocs/elb-network-load-balancers-user-guide.git
+[submodule "elb-classic-load-balancers-user-guide"]
+	path = elb-classic-load-balancers-user-guide
+	url = ssh://git@github.com/awsdocs/elb-classic-load-balancers-user-guide.git
+[submodule "amazon-vpc-network-administrator-guide"]
+	path = amazon-vpc-network-administrator-guide
+	url = ssh://git@github.com/awsdocs/amazon-vpc-network-administrator-guide.git
+[submodule "amazon-workspaces-user-guide"]
+	path = amazon-workspaces-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-workspaces-user-guide.git
+[submodule "amazon-ec2-auto-scaling-user-guide"]
+	path = amazon-ec2-auto-scaling-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-ec2-auto-scaling-user-guide.git
+[submodule "aws-elemental-medialive-user-guide"]
+	path = aws-elemental-medialive-user-guide
+	url = ssh://git@github.com/awsdocs/aws-elemental-medialive-user-guide.git
+[submodule "amazon-vpc-peering-guide"]
+	path = amazon-vpc-peering-guide
+	url = ssh://git@github.com/awsdocs/amazon-vpc-peering-guide.git
+[submodule "amazon-workdocs-dev-guide"]
+	path = amazon-workdocs-dev-guide
+	url = ssh://git@github.com/awsdocs/amazon-workdocs-dev-guide.git
+[submodule "aws-resource-groups-user-guide"]
+	path = aws-resource-groups-user-guide
+	url = ssh://git@github.com/awsdocs/aws-resource-groups-user-guide.git
+[submodule "amazon-connect-user-guide"]
+	path = amazon-connect-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-connect-user-guide.git
+[submodule "amazon-connect-admin-guide"]
+	path = amazon-connect-admin-guide
+	url = ssh://git@github.com/awsdocs/amazon-connect-admin-guide.git
+[submodule "amazon-elasticsearch-service-developer-guide"]
+	path = amazon-elasticsearch-service-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-elasticsearch-service-developer-guide.git
+[submodule "aws-batch-user-guide"]
+	path = aws-batch-user-guide
+	url = ssh://git@github.com/awsdocs/aws-batch-user-guide.git
+[submodule "amazon-machinelearning-developer-guide"]
+	path = amazon-machinelearning-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-machinelearning-developer-guide.git
+[submodule "aws-javascript-developer-guide-v2"]
+	path = aws-javascript-developer-guide-v2
+	url = ssh://git@github.com/awsdocs/aws-javascript-developer-guide-v2.git
+[submodule "aws-deeplens-user-guide"]
+	path = aws-deeplens-user-guide
+	url = ssh://git@github.com/awsdocs/aws-deeplens-user-guide.git
+[submodule "amazon-ses-developer-guide"]
+	path = amazon-ses-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-ses-developer-guide.git
+[submodule "aws-step-functions-developer-guide"]
+	path = aws-step-functions-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-step-functions-developer-guide.git
+[submodule "aws-codestar-user-guide"]
+	path = aws-codestar-user-guide
+	url = ssh://git@github.com/awsdocs/aws-codestar-user-guide.git
+[submodule "aws-codebuild-user-guide"]
+	path = aws-codebuild-user-guide
+	url = ssh://git@github.com/awsdocs/aws-codebuild-user-guide.git
+[submodule "amazon-mq-developer-guide"]
+	path = amazon-mq-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-mq-developer-guide.git
+[submodule "amazon-sqs-developer-guide"]
+	path = amazon-sqs-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-sqs-developer-guide.git
+[submodule "aws-codecommit-user-guide"]
+	path = aws-codecommit-user-guide
+	url = ssh://git@github.com/awsdocs/aws-codecommit-user-guide.git
+[submodule "aws-cloudtrail-user-guide"]
+	path = aws-cloudtrail-user-guide
+	url = ssh://git@github.com/awsdocs/aws-cloudtrail-user-guide.git
+[submodule "amazon-emr-management-guide"]
+	path = amazon-emr-management-guide
+	url = ssh://git@github.com/awsdocs/amazon-emr-management-guide.git
+[submodule "amazon-emr-release-guide"]
+	path = amazon-emr-release-guide
+	url = ssh://git@github.com/awsdocs/amazon-emr-release-guide.git
+[submodule "amazon-cloudwatch-events-user-guide"]
+	path = amazon-cloudwatch-events-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-cloudwatch-events-user-guide.git
+[submodule "amazon-cloudwatch-logs-user-guide"]
+	path = amazon-cloudwatch-logs-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-cloudwatch-logs-user-guide.git
+[submodule "amazon-cloudwatch-user-guide"]
+	path = amazon-cloudwatch-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-cloudwatch-user-guide.git
+[submodule "aws-systems-manager-user-guide"]
+	path = aws-systems-manager-user-guide
+	url = ssh://git@github.com/awsdocs/aws-systems-manager-user-guide.git
+[submodule "aws-php-developers-guide"]
+	path = aws-php-developers-guide
+	url = ssh://git@github.com/awsdocs/aws-php-developers-guide.git
+[submodule "aws-marketplace-user-guide-for-sellers"]
+	path = aws-marketplace-user-guide-for-sellers
+	url = ssh://git@github.com/awsdocs/aws-marketplace-user-guide-for-sellers.git
+[submodule "amazon-cloudsearch-developer-guide"]
+	path = amazon-cloudsearch-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-cloudsearch-developer-guide.git
+[submodule "aws-personal-health-dashboard"]
+	path = aws-personal-health-dashboard
+	url = ssh://git@github.com/awsdocs/aws-personal-health-dashboard.git
+[submodule "aws-support-user-guide"]
+	path = aws-support-user-guide
+	url = ssh://git@github.com/awsdocs/aws-support-user-guide.git
+[submodule "amazon-workmail-administration-guide"]
+	path = amazon-workmail-administration-guide
+	url = ssh://git@github.com/awsdocs/amazon-workmail-administration-guide.git
+[submodule "amazon-workdocs-user-guide"]
+	path = amazon-workdocs-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-workdocs-user-guide.git
+[submodule "amazon-workmail-user-guide"]
+	path = amazon-workmail-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-workmail-user-guide.git
+[submodule "alexa-for-business-administration-guide"]
+	path = alexa-for-business-administration-guide
+	url = ssh://git@github.com/awsdocs/alexa-for-business-administration-guide.git
+[submodule "amazon-chime-administration-guide"]
+	path = amazon-chime-administration-guide
+	url = ssh://git@github.com/awsdocs/amazon-chime-administration-guide.git
+[submodule "amazon-workdocs-administration-guide"]
+	path = amazon-workdocs-administration-guide
+	url = ssh://git@github.com/awsdocs/amazon-workdocs-administration-guide.git
+[submodule "amazon-chime-user-guide"]
+	path = amazon-chime-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-chime-user-guide.git
+[submodule "aws-server-migration-service-user-guide"]
+	path = aws-server-migration-service-user-guide
+	url = ssh://git@github.com/awsdocs/aws-server-migration-service-user-guide.git
+[submodule "vm-import-export-user-guide"]
+	path = vm-import-export-user-guide
+	url = ssh://git@github.com/awsdocs/vm-import-export-user-guide.git
+[submodule "aws-management-portal-for-vcenter-user-guide"]
+	path = aws-management-portal-for-vcenter-user-guide
+	url = ssh://git@github.com/awsdocs/aws-management-portal-for-vcenter-user-guide.git
+[submodule "aws-dynamodb-encryption-docs"]
+	path = aws-dynamodb-encryption-docs
+	url = ssh://git@github.com/awsdocs/aws-dynamodb-encryption-docs.git
+[submodule "aws-blockchain-templates-developer-guide"]
+	path = aws-blockchain-templates-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-blockchain-templates-developer-guide.git
+[submodule "aws-freertos-docs"]
+	path = aws-freertos-docs
+	url = ssh://git@github.com/awsdocs/aws-freertos-docs.git
+[submodule "amazon-api-gateway-developer-guide"]
+	path = amazon-api-gateway-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-api-gateway-developer-guide.git
+[submodule "aws-config-developer-guide"]
+	path = aws-config-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-config-developer-guide.git
+[submodule "amazon-eks-user-guide"]
+	path = amazon-eks-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-eks-user-guide.git
+[submodule "amazon-lumberyard-getting-started-guide"]
+	path = amazon-lumberyard-getting-started-guide
+	url = ssh://git@github.com/awsdocs/amazon-lumberyard-getting-started-guide.git
+[submodule "aws-private-ca-user-guide"]
+	path = aws-private-ca-user-guide
+	url = ssh://git@github.com/awsdocs/aws-private-ca-user-guide.git
+[submodule "nice-dcv-user-guide"]
+	path = nice-dcv-user-guide
+	url = ssh://git@github.com/awsdocs/nice-dcv-user-guide.git
+[submodule "nice-dcv-admin-guide"]
+	path = nice-dcv-admin-guide
+	url = ssh://git@github.com/awsdocs/nice-dcv-admin-guide.git
+[submodule "amazon-aurora-user-guide"]
+	path = amazon-aurora-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-aurora-user-guide.git
+[submodule "aws-sam-developer-guide"]
+	path = aws-sam-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-sam-developer-guide.git
+[submodule "aws-amplify-console-user-guide"]
+	path = aws-amplify-console-user-guide
+	url = ssh://git@github.com/awsdocs/aws-amplify-console-user-guide.git
+[submodule "aws-transit-gateway-guide"]
+	path = aws-transit-gateway-guide
+	url = ssh://git@github.com/awsdocs/aws-transit-gateway-guide.git
+[submodule "aws-app-mesh-user-guide"]
+	path = aws-app-mesh-user-guide
+	url = ssh://git@github.com/awsdocs/aws-app-mesh-user-guide.git
+[submodule "aws-resource-access-manager-user-guide"]
+	path = aws-resource-access-manager-user-guide
+	url = ssh://git@github.com/awsdocs/aws-resource-access-manager-user-guide.git
+[submodule "aws-cryptography-overview-developer-guide"]
+	path = aws-cryptography-overview-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-cryptography-overview-developer-guide.git
+[submodule "aws-cdk-guide"]
+	path = aws-cdk-guide
+	url = ssh://git@github.com/awsdocs/aws-cdk-guide.git
+[submodule "amazon-fsx-lustre-user-guide"]
+	path = amazon-fsx-lustre-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-fsx-lustre-user-guide.git
+[submodule "amazon-fsx-windows-user-guide"]
+	path = amazon-fsx-windows-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-fsx-windows-user-guide.git
+[submodule "aws-iot-docs"]
+	path = aws-iot-docs
+	url = ssh://git@github.com/awsdocs/aws-iot-docs.git
+[submodule "aws-client-vpn-administrator-guide"]
+	path = aws-client-vpn-administrator-guide
+	url = ssh://git@github.com/awsdocs/aws-client-vpn-administrator-guide.git
+[submodule "aws-client-vpn-user-guide"]
+	path = aws-client-vpn-user-guide
+	url = ssh://git@github.com/awsdocs/aws-client-vpn-user-guide.git
+[submodule "aws-robomaker-developer-guide"]
+	path = aws-robomaker-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-robomaker-developer-guide.git
+[submodule "aws-site-to-site-vpn-user-guide"]
+	path = aws-site-to-site-vpn-user-guide
+	url = ssh://git@github.com/awsdocs/aws-site-to-site-vpn-user-guide.git
+[submodule "aws-marketplace-user-guide-for-buyers"]
+	path = aws-marketplace-user-guide-for-buyers
+	url = ssh://git@github.com/awsdocs/aws-marketplace-user-guide-for-buyers.git
+[submodule "aws-service-catalog-admin-guide"]
+	path = aws-service-catalog-admin-guide
+	url = ssh://git@github.com/awsdocs/aws-service-catalog-admin-guide.git
+[submodule "aws-pricing-calculator-user-guide"]
+	path = aws-pricing-calculator-user-guide
+	url = ssh://git@github.com/awsdocs/aws-pricing-calculator-user-guide.git
+[submodule "aws-elemental-mediaconnect-user-guide"]
+	path = aws-elemental-mediaconnect-user-guide
+	url = ssh://git@github.com/awsdocs/aws-elemental-mediaconnect-user-guide.git
+[submodule "aws-global-accelerator-dev-guide"]
+	path = aws-global-accelerator-dev-guide
+	url = ssh://git@github.com/awsdocs/aws-global-accelerator-dev-guide.git
+[submodule "aws-iot-sitewise-user-guide"]
+	path = aws-iot-sitewise-user-guide
+	url = ssh://git@github.com/awsdocs/aws-iot-sitewise-user-guide.git
+[submodule "aws-toolkit-vs-code-user-guide"]
+	path = aws-toolkit-vs-code-user-guide
+	url = ssh://git@github.com/awsdocs/aws-toolkit-vs-code-user-guide.git
+[submodule "amazon-lightsail-developer-guide"]
+	path = amazon-lightsail-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-lightsail-developer-guide.git
+[submodule "amazon-corretto-11-user-guide"]
+	path = amazon-corretto-11-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-corretto-11-user-guide.git
+[submodule "amazon-corretto-8-user-guide"]
+	path = amazon-corretto-8-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-corretto-8-user-guide.git
+[submodule "aws-tools-ado-vsts-user-guide"]
+	path = aws-tools-ado-vsts-user-guide
+	url = ssh://git@github.com/awsdocs/aws-tools-ado-vsts-user-guide.git
+[submodule "aws-toolkit-jetbrains-user-guide"]
+	path = aws-toolkit-jetbrains-user-guide
+	url = ssh://git@github.com/awsdocs/aws-toolkit-jetbrains-user-guide.git
+[submodule "aws-1-click-developer-guide"]
+	path = aws-1-click-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-1-click-developer-guide.git
+[submodule "aws-iot-things-graph-user-guide"]
+	path = aws-iot-things-graph-user-guide
+	url = ssh://git@github.com/awsdocs/aws-iot-things-graph-user-guide.git
+[submodule "aws-parallelcluster-user-guide"]
+	path = aws-parallelcluster-user-guide
+	url = ssh://git@github.com/awsdocs/aws-parallelcluster-user-guide.git
+[submodule "amazon-lumberyard-user-guide"]
+	path = amazon-lumberyard-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-lumberyard-user-guide.git
+[submodule "amazon-gamelift-developer-guide"]
+	path = amazon-gamelift-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-gamelift-developer-guide.git
+[submodule "aws-control-tower-guide"]
+	path = aws-control-tower-guide
+	url = ssh://git@github.com/awsdocs/aws-control-tower-guide.git
+[submodule "amazon-traffic-mirroring-guide"]
+	path = amazon-traffic-mirroring-guide
+	url = ssh://git@github.com/awsdocs/amazon-traffic-mirroring-guide.git
+[submodule "GuidesPatternsSolutions"]
+	path = GuidesPatternsSolutions
+	url = ssh://git@github.com/awsdocs/GuidesPatternsSolutions.git
+[submodule "amazon-sns-developer-guide"]
+	path = amazon-sns-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-sns-developer-guide.git
+[submodule "aws-iot-events-developer-guide"]
+	path = aws-iot-events-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-iot-events-developer-guide.git
+[submodule "aws-iot-analytics-user-guide"]
+	path = aws-iot-analytics-user-guide
+	url = ssh://git@github.com/awsdocs/aws-iot-analytics-user-guide.git
+[submodule "amazon-eventbridge-user-guide"]
+	path = amazon-eventbridge-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-eventbridge-user-guide.git
+[submodule "aws-security-hub-user-guide"]
+	path = aws-security-hub-user-guide
+	url = ssh://git@github.com/awsdocs/aws-security-hub-user-guide.git
+[submodule "aws-chatbot-admin-guide"]
+	path = aws-chatbot-admin-guide
+	url = ssh://git@github.com/awsdocs/aws-chatbot-admin-guide.git
+[submodule "amazon-textract-developer-guide"]
+	path = amazon-textract-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-textract-developer-guide.git
+[submodule "amazon-lumberyard-release-notes"]
+	path = amazon-lumberyard-release-notes
+	url = ssh://git@github.com/awsdocs/amazon-lumberyard-release-notes.git
+[submodule "amazon-chime-developer-guide"]
+	path = amazon-chime-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-chime-developer-guide.git
+[submodule "aws-deepracer-developer-guide"]
+	path = aws-deepracer-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-deepracer-developer-guide.git
+[submodule "amazon-rds-on-vmware-user-guide"]
+	path = amazon-rds-on-vmware-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-rds-on-vmware-user-guide.git
+[submodule "amazon-personalize-developer-guide"]
+	path = amazon-personalize-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-personalize-developer-guide.git
+[submodule "amazon-forecast-developer-guide"]
+	path = amazon-forecast-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-forecast-developer-guide.git
+[submodule "aws-sdk-for-javascript-v3"]
+	path = aws-sdk-for-javascript-v3
+	url = ssh://git@github.com/awsdocs/aws-sdk-for-javascript-v3.git
+[submodule "aws-launch-wizard-user-guide"]
+	path = aws-launch-wizard-user-guide
+	url = ssh://git@github.com/awsdocs/aws-launch-wizard-user-guide.git
+[submodule "aws-data-exchange-user-guide"]
+	path = aws-data-exchange-user-guide
+	url = ssh://git@github.com/awsdocs/aws-data-exchange-user-guide.git
+[submodule "ec2-image-builder-user-guide"]
+	path = ec2-image-builder-user-guide
+	url = ssh://git@github.com/awsdocs/ec2-image-builder-user-guide.git
+[submodule "aws-iotanalytics-developer-guide"]
+	path = aws-iotanalytics-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-iotanalytics-developer-guide.git
+[submodule "aws-kinesis-video-webrtc-documentation"]
+	path = aws-kinesis-video-webrtc-documentation
+	url = ssh://git@github.com/awsdocs/aws-kinesis-video-webrtc-documentation.git
+[submodule "aws-cur-user-guide"]
+	path = aws-cur-user-guide
+	url = ssh://git@github.com/awsdocs/aws-cur-user-guide.git
+[submodule "amazon-rekognition-custom-labels-developer-guide"]
+	path = amazon-rekognition-custom-labels-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-rekognition-custom-labels-developer-guide.git
+[submodule "amazon-managed-blockchain-management-guide"]
+	path = amazon-managed-blockchain-management-guide
+	url = ssh://git@github.com/awsdocs/amazon-managed-blockchain-management-guide.git
+[submodule "amazon-detective-admin-guide"]
+	path = amazon-detective-admin-guide
+	url = ssh://git@github.com/awsdocs/amazon-detective-admin-guide.git
+[submodule "amazon-detective-user-guide"]
+	path = amazon-detective-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-detective-user-guide.git
+[submodule "aws-cloud-map-developer-guide"]
+	path = aws-cloud-map-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-cloud-map-developer-guide.git
+[submodule "aws-panorama-developer-guide"]
+	path = aws-panorama-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-panorama-developer-guide.git
+[submodule "amazon-kendra-developer-guide"]
+	path = amazon-kendra-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-kendra-developer-guide.git
+[submodule "porting-assistant-user-guide"]
+	path = porting-assistant-user-guide
+	url = ssh://git@github.com/awsdocs/porting-assistant-user-guide.git
+[submodule "aws-iot-sitewise-monitor-application-guide"]
+	path = aws-iot-sitewise-monitor-application-guide
+	url = ssh://git@github.com/awsdocs/aws-iot-sitewise-monitor-application-guide.git
+[submodule "aws-codeartifact-user-guide"]
+	path = aws-codeartifact-user-guide
+	url = ssh://git@github.com/awsdocs/aws-codeartifact-user-guide.git
+[submodule "amazon-codeguru-reviewer-user-guide"]
+	path = amazon-codeguru-reviewer-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-codeguru-reviewer-user-guide.git
+[submodule "amazon-codeguru-profiler-user-guide"]
+	path = amazon-codeguru-profiler-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-codeguru-profiler-user-guide.git
+[submodule "aws-security-hub-partner-guide"]
+	path = aws-security-hub-partner-guide
+	url = ssh://git@github.com/awsdocs/aws-security-hub-partner-guide.git
+[submodule "aws-glue-user-guide"]
+	path = aws-glue-user-guide
+	url = ssh://git@github.com/awsdocs/aws-glue-user-guide.git
+[submodule "emp-user-guide"]
+	path = emp-user-guide
+	url = ssh://git@github.com/awsdocs/emp-user-guide.git
+[submodule "elb-gateway-load-balancers-user-guide"]
+	path = elb-gateway-load-balancers-user-guide
+	url = ssh://git@github.com/awsdocs/elb-gateway-load-balancers-user-guide.git
+[submodule "amazon-lookoutmetrics-developer-guide"]
+	path = amazon-lookoutmetrics-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-lookoutmetrics-developer-guide.git
+[submodule "aws-proton-administration-guide"]
+	path = aws-proton-administration-guide
+	url = ssh://git@github.com/awsdocs/aws-proton-administration-guide.git
+[submodule "aws-proton-user-guide"]
+	path = aws-proton-user-guide
+	url = ssh://git@github.com/awsdocs/aws-proton-user-guide.git
+[submodule "aws-iot-greengrass-v2-developer-guide"]
+	path = aws-iot-greengrass-v2-developer-guide
+	url = ssh://git@github.com/awsdocs/aws-iot-greengrass-v2-developer-guide.git
+[submodule "amazon-mq-migration-guide"]
+	path = amazon-mq-migration-guide
+	url = ssh://git@github.com/awsdocs/amazon-mq-migration-guide.git
+[submodule "amazon-devops-guru-user-guide"]
+	path = amazon-devops-guru-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-devops-guru-user-guide.git
+[submodule "amazon-managed-blockchain-hyperledger-fabric-developer-guide"]
+	path = amazon-managed-blockchain-hyperledger-fabric-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-managed-blockchain-hyperledger-fabric-developer-guide.git
+[submodule "amazon-managed-blockchain-ethereum-developer-guide"]
+	path = amazon-managed-blockchain-ethereum-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-managed-blockchain-ethereum-developer-guide.git
+[submodule "amazon-ecr-public-user-guide"]
+	path = amazon-ecr-public-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-ecr-public-user-guide.git
+[submodule "amazon-s3-userguide"]
+	path = amazon-s3-userguide
+	url = ssh://git@github.com/awsdocs/amazon-s3-userguide.git
+[submodule "amazon-lookout-for-vision-developer-guide"]
+	path = amazon-lookout-for-vision-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-lookout-for-vision-developer-guide.git
+[submodule "amazon-mwaa-user-guide"]
+	path = amazon-mwaa-user-guide
+	url = ssh://git@github.com/awsdocs/amazon-mwaa-user-guide.git
+[submodule "amazon-lexv2-developer-guide"]
+	path = amazon-lexv2-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-lexv2-developer-guide.git
+[submodule "amazon-cognito-developer-guide"]
+	path = amazon-cognito-developer-guide
+	url = ssh://git@github.com/awsdocs/amazon-cognito-developer-guide.git
+[submodule "service-quotas-user-guide"]
+	path = service-quotas-user-guide
+	url = ssh://git@github.com/awsdocs/service-quotas-user-guide.git
+[submodule "amazon-ecs-bestpractices-guide"]
+	path = amazon-ecs-bestpractices-guide
+	url = ssh://git@github.com/awsdocs/amazon-ecs-bestpractices-guide.git
+[submodule "incident-manager-user-guide"]
+	path = incident-manager-user-guide
+	url = ssh://git@github.com/awsdocs/incident-manager-user-guide.git
